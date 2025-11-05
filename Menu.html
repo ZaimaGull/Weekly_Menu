@@ -47,13 +47,13 @@
 </style>
 </head>
 <body>
-    <div id="header-content" style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-    <img src="/Tiny Tot Logo.jpg" width="50" height="50">
+    <div id="header-content" style="text-align: center; gap: 15px; margin-bottom: 20px;">
+    <!-- <img src="/Tiny Tot Logo.jpg" width="50" height="50"> -->
     <h1>Tiny Tot's Daycare Weekly Food Menu</h1>
     </div>
-
+    
     <div id="add-item-form" style="margin-top: 20px; padding: 20px; border: 1px solid #ccc;">
-        <h3>Add Food Item</h3>
+         <h3>Add Food Item</h3>
     <label for="day-select">Day:</label>
         <select id="day-select">
         <option value="Monday">Monday</option>
@@ -77,7 +77,7 @@
         <table border="1" cellpadding = "10" cellspacing = "0" style="width: 100%; margin-bottom: 20px;">
             <thead>
                 <tr>
-                   <th style="width: 120px;">Week of: <input type= "date" id="weekDate" class="date-input" onchange="updateWeek()"></th>
+                   <th style="width: 120px; text-align:left">Week of: <input type= "date" id="weekDate" class="date-input" onchange="updateWeek()"></th>
                    <th>Monday</th>
                    <th>Tuesday</th>
                    <th>Wednesday</th>
